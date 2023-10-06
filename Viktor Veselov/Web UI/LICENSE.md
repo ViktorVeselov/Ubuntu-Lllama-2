@@ -1,4 +1,4 @@
-MIT License with Additional Clause
+MIT License
 
 Copyright (c) 2023 Viktor Veselov
 
@@ -8,12 +8,6 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
-1. The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-2. Proper attribution to the authors of the model used in this software must be given
-in any derived works or publications that make use of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
