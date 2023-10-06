@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card center-card">
+                <div class="card-header">
+                    <h3>Ask a Question</h3>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <textarea id="question" class="form-control" placeholder="Your question here..." rows="1"></textarea>
+                    </div>
+                    <button class="btn btn-primary" onclick="getAnswer()">Ask</button>
+                    <p class="mt-3">Score: <span id="score"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cursor"></div> <!-- Custom cursor div -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script> <!-- Linking the external JavaScript file -->
+
+</body>
+</html>
