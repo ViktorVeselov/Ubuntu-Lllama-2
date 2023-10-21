@@ -17,6 +17,7 @@ Final Folder
 │   └── CodeLlama_2_Fine_tuning.ipynb
 │   └── flan_t5_fine_tune.ipynb
 └── Performance and Evaluation
+LICENCE.md
 ```
 ### Folder Descriptions
 
