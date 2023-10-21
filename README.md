@@ -1,5 +1,8 @@
-# codeA-chatbot
-All final results are housed in the `Final Folder`. The directory tree is outlined below:
+# Repository Overview
+
+This repository contains all the essential components and final results of our project. The primary contents are organized in the `Final Folder`.
+
+## Directory Structure
 
 ```
 Final Folder
@@ -15,3 +18,10 @@ Final Folder
 │   └── flan_t5_fine_tune.ipynb
 └── Performance and Evaluation
 ```
+### Folder Descriptions
+
+- **Conclusion**: Contains the final report summarizing the project's outcomes.
+- **Dataset**: Includes Jupyter notebooks for initial data analysis and data cleaning.
+- **Inference (?)**: This folder's purpose is currently ambiguous and may require further clarification.
+- **Model Selection**: Houses various Jupyter notebooks detailing the fine-tuning processes for different models.
+- **Performance and Evaluation**: Reserved for performance metrics and evaluation results.
