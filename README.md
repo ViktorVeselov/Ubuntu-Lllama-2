@@ -36,7 +36,7 @@ LICENCE.md
 - **Performance and Evaluation**: Reserved for performance metrics and evaluation results.
 Before using this reposatory, for your personal convinience, run `python-package-conda.yml` that creates conda (anaconda) environment and set all dependencies for both Python and Java.
 
-# Question-Answering Chatbot with Arcpolar/Ubuntu_Llama_Chat_7B
+# Question-Answering Chatbot with Arcpolar/Ubuntu_Llama_Chat_7B and SweatyCrayfish/Linux-CodeLlama2
 
 This README outlines the steps to set up a chatbot using the `Arcpolar/Ubuntu_Llama_Chat_7B` model from Hugging Face for a single-turn question-answer dialogue.
 
@@ -61,8 +61,8 @@ Command downloads Ubuntu_llama_Chat_7B from huggingface
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Initialize the model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("Arcpolar/Ubuntu_Llama_Chat_7B")
-model = AutoModelForCausalLM.from_pretrained("Arcpolar/Ubuntu_Llama_Chat_7B")
+tokenizer = AutoTokenizer.from_pretrained("Arcpolar/Ubuntu_Llama_Chat_7B") #optionally we can use SweatyCrayfish/Linux-CodeLlama2 tokenizer
+model = AutoModelForCausalLM.from_pretrained("Arcpolar/Ubuntu_Llama_Chat_7B") #for scripts we recommend to use SweatyCrayfish/Linux-CodeLlama2 for script generating tasks
 ```
 Generate a dialogue history where `user_input` is a question we want to ask our model
 ```
