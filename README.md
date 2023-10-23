@@ -35,3 +35,20 @@ Before using this reposatory, for your personal convinience, run `python-package
 - **Dataset**: Includes Jupyter notebooks for initial data analysis and data cleaning.
 - **Model Selection**: Houses various Jupyter notebooks detailing the fine-tuning processes for different models.
 - **Performance and Evaluation**: Reserved for performance metrics and evaluation results.
+
+# Disclaimer
+<b>Ubuntu_Llama_Chat_7B </b><br>
+Ubuntu_Llama_Chat_7B is a fine-tuned model based on Llama 2 Chat 7b base model and fine-tuned on the data set Ubuntu Dialogue Corpus <br>
+<br>
+
+## Acknowledgments
+
+### Base Model: Llama-2-7b-chat-hf
+- We utilized the Llama2 Chat 7b model as the base model for our project. The model was obtained from [meta-llama/Llama-2-2b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf).
+- Special thanks to [AI at Meta](https://ai.meta.com/llama/) for providing the model and the community around it for the support.
+- License: A custom commercial license is available at: https://ai.meta.com/resources/models-and-libraries/llama-downloads/.
+
+### Fine-Tune Dataset
+- The fine-tuning was performed on [Ubuntu Dialogue Corpus](https://www.kaggle.com/datasets/rtatman/ubuntu-dialogue-corpus) dataset, which was crucial for achieving the results.
+- The dataset is provided under [Apache License, 2.0](https://www.apache.org/licenses/LICENSE-2.0) license. We thank [Ryan Lowe, Nissan Pow , Iulian V. Serban, and Joelle Pineau](http://www.sigdial.org/workshops/conference16/proceedings/pdf/SIGDIAL40.pdf) for making the dataset publicly available.
+- Ryan Lowe, Nissan Pow, Iulian V. Serban and Joelle Pineau, "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems", SIGDial 2015. URL: http://www.sigdial.org/workshops/conference16/proceedings/pdf/SIGDIAL40.pdf
