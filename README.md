@@ -1,3 +1,8 @@
+## Resources
+[![GitHub Repo stars](https://img.shields.io/github/stars/your-github-username/your-repo-name?style=social)](https://github.com/your-github-username/your-repo-name/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/your-github-username/your-repo-name/blob/main/LICENSE.md)
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch-red?style=social&logo=youtube)](https://youtu.be/NWtYlHZf7RQ?si=k8sC-HetEAbWQcbm)
+
 This is a hyper link to BLUE and ROGUE scores [README.md](https://github.com/SweatyCrayfish/Ubuntu-Lllama-2/blob/main/Final%20Folder/Performance%20and%20Evaluations/README.md)
 # Repository Overview
 
