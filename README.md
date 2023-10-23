@@ -1,4 +1,4 @@
-This is a hyper link to BLUE and ROGUE scores [README.md]([https://pages.github.com/](https://github.com/SweatyCrayfish/Ubuntu-Lllama-2/blob/main/Final%20Folder/Performance%20and%20Evaluations/README.md)).
+This is a hyper link to BLUE and ROGUE scores [README.md](https://github.com/SweatyCrayfish/Ubuntu-Lllama-2/blob/main/Final%20Folder/Performance%20and%20Evaluations/README.md)
 # Repository Overview
 
 This repository contains all the essential components and final results of our project. The primary contents are organized in the `Final Folder`.
