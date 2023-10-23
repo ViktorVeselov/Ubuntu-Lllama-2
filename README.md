@@ -26,7 +26,7 @@ Final Folder
 │   └── Merged_Model_Push_to_HuggingFace.ipynb
 ├── Conclusion
 │   └── Final Report.doc
-├── Dataset
+├── Data Analysis and Cleansing
 │   ├── Data_Analysis_and_Trivial_Modeling.ipynb
 │   └── Data_Cleanup.ipynb
 ├── Model Selection
