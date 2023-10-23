@@ -11,7 +11,8 @@ Final Folder
 ├── Dataset
 │   ├── Data_Analysis_and_Trivial_Modeling.ipynb
 │   └── Data_Cleanup.ipynb
-├── Inference (?)
+├── Chatbot Interface
+│   └── Gradio_Chatbot.ipynb
 ├── Model Selection
 │   ├── Final_Linux_CodeLlama_2__Fine_tuning_v2.ipynb
 │   ├── Llama_2_Fine_tuning_v2.1.ipynb
