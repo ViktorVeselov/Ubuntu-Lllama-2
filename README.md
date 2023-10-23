@@ -12,27 +12,39 @@ This repository contains all the essential components and final results of our p
 
 ```
 .github
-├── workflows
-│   └── python-package-conda.yml
+├── ISSUE_TEMPLATE
+│   ├─── bug_report.md
+│   └─── feature_request.md
+└── workflows
+    └── python-package-conda.yml
+
 Final Folder
 ├── Chatbot Interface
-│   └── Gradio_Chatbot.ipynb #Bin
+│   ├── Gradio_Chatbot.ipynb
+│   └── Merged_Model_Push_to_HuggingFace.ipynb
 ├── Conclusion
-│   └── Final Report.doc #Bin/Isaack/Viktor
+│   └── Final Report.doc
 ├── Dataset
-│   ├── Data_Analysis_and_Trivial_Modeling.ipynb #Viktor
-│   └── Data_Cleanup.ipynb #Isaack
+│   ├── Data_Analysis_and_Trivial_Modeling.ipynb
+│   └── Data_Cleanup.ipynb
 ├── Model Selection
-│   ├── Final_Linux_CodeLlama_2__Fine_tuning_v2.ipynb #Viktor
-│   ├── Llama_2_Fine_tuning_v2.1.ipynb #Bin
+│   ├── Final_Linux_CodeLlama_2__Fine_tuning_v2.ipynb
+│   ├── Llama_2_Fine_tuning_v2.1.ipynb
 │   ├── Photos.jpeg
 │   ├── QLora _1.jpeg
-│   ├── Team6_Advanced_Chatbot Desigin.ipynb #Isaack
+│   ├── Team6_Advanced_Chatbot Desigin.ipynb
 │   └── flan_t5_fine_tune.ipynb
 └── Performance and Evaluation
-│   ├── Llama 2 Models BLEU and ROUGE Metrics.xlsx
-│   └── Performance and Evaluation.docx
+    ├── Llama 2 Models BLEU and ROUGE Metrics.xlsx
+    ├── Llama_2__Fine_Tuning_with_Cleaned_Data.ipynb
+    ├── Llama_2__Fine_Tuning_with_Uncleaned_Data.ipynb
+    ├── Performance and Evaluation.docx
+    └── README.md
+.DS_Store
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
 LICENCE.md
+README.md
 ```
 ### Folder Descriptions
 - **Chatbot Interface** Include interface for chatbot
