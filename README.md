@@ -1,5 +1,5 @@
 ## Resources
-[![GitHub Repo stars](https://img.shields.io/github/stars/your-github-username/your-repo-name?style=social)]([https://github.com/your-github-username/your-repo-name/stargazers](https://github.com/SweatyCrayfish/Ubuntu-Lllama-2/stargazers))
+[![GitHub Repo stars](https://img.shields.io/github/stars/your-github-username/your-repo-name?style=social)](https://github.com/SweatyCrayfish/Ubuntu-Lllama-2/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/your-github-username/your-repo-name/blob/main/LICENSE.md)
 [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch-red?style=social&logo=youtube)](https://youtu.be/NWtYlHZf7RQ?si=k8sC-HetEAbWQcbm)
 
