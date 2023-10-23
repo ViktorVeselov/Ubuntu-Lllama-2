@@ -31,13 +31,16 @@ Final Folder
 │   └── Data_Cleanup.ipynb
 ├── Model Selection
 │   ├── Final_Linux_CodeLlama_2__Fine_tuning_v2.ipynb
-│   ├── Llama_2_Fine_tuning_v2.1.ipynb
+│   ├── Llama_2_Chat_Fine_Tuning_v2.ipynb
+│   ├── Llama_2_Fine_Tuning_v2.ipynb
 │   ├── Photos.jpeg
 │   ├── QLora _1.jpeg
 │   ├── Team6_Advanced_Chatbot Desigin.ipynb
 │   └── flan_t5_fine_tune.ipynb
 └── Performance and Evaluation
     ├── Llama 2 Models BLEU and ROUGE Metrics.xlsx
+    ├── Llama_2_Chat__Fine_Tuning_with_Cleaned_Data_Dropoff_0_5.ipynb
+    ├── Llama_2_Chat__Fine_Tuning_with_Cleaned_Data_Early_Stop.ipynb
     ├── Llama_2__Fine_Tuning_with_Cleaned_Data.ipynb
     ├── Llama_2__Fine_Tuning_with_Uncleaned_Data.ipynb
     ├── Performance and Evaluation.docx
