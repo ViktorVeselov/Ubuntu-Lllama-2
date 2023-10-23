@@ -28,13 +28,71 @@ Final Folder
 │   └── Performance and Evaluation.docx
 LICENCE.md
 ```
-Before using this reposatory, for your personal convinience, run `python-package-conda.yml` that creates conda (anaconda) environment and set all dependencies for both Python and Java.
 ### Folder Descriptions
 - **Chatbot Interface** Include interface for chatbot
 - **Conclusion**: Contains the final report summarizing the project's outcomes.
 - **Dataset**: Includes Jupyter notebooks for initial data analysis and data cleaning.
 - **Model Selection**: Houses various Jupyter notebooks detailing the fine-tuning processes for different models.
 - **Performance and Evaluation**: Reserved for performance metrics and evaluation results.
+Before using this reposatory, for your personal convinience, run `python-package-conda.yml` that creates conda (anaconda) environment and set all dependencies for both Python and Java.
+
+# Question-Answering Chatbot with Arcpolar/Ubuntu_Llama_Chat_7B
+
+This README outlines the steps to set up a chatbot using the `Arcpolar/Ubuntu_Llama_Chat_7B` model from Hugging Face for a single-turn question-answer dialogue.
+
+## Prerequisites
+
+- Python 3.x
+- pip package manager
+
+## Installation
+
+Install the required Python package:
+
+```
+pip install transformers
+```
+
+## Code Example
+
+Below is a Python script that demonstrates a single interaction between a user and the chatbot. This example for the model's token limit of 1024. </br>
+Command downloads Ubuntu_llama_Chat_7B from huggingface
+```
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# Initialize the model and tokenizer
+tokenizer = AutoTokenizer.from_pretrained("Arcpolar/Ubuntu_Llama_Chat_7B")
+model = AutoModelForCausalLM.from_pretrained("Arcpolar/Ubuntu_Llama_Chat_7B")
+```
+Generate a dialogue history where `user_input` is a question we want to ask our model
+```
+# Sample dialogue history
+dialogue_history = ""
+
+# Sample user input
+user_input = "What is Ubuntu?" #we can ask any other questions
+
+# Append user input to dialogue history
+dialogue_history += user_input + tokenizer.eos_token
+
+# Tokenize the dialogue history and ensure it does not exceed 1024 tokens
+input_ids = tokenizer.encode(dialogue_history, return_tensors='pt')
+if len(input_ids[0]) > 1024:
+    print("Token limit exceeded. Please shorten the dialogue history.")
+
+# Generate model response
+output_ids = model.generate(input_ids, max_length=1024, pad_token_id=tokenizer.eos_token_id)
+```
+Display model's response
+```
+# Decode and display model response
+generated_output = tokenizer.decode(output_ids[:, input_ids.shape[-1]:][0], skip_special_tokens=True)
+print("Bot Response:", generated_output)
+```
+
+## Note
+
+The model has a token limit of 1024. Ensure your dialogue history does not exceed this limit for optimal performance.
 
 # Disclaimer
 <b>Ubuntu_Llama_Chat_7B </b><br>
