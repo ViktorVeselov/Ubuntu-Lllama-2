@@ -136,4 +136,4 @@ Ubuntu_Llama_Chat_7B is a fine-tuned model based on Llama 2 Chat 7b base model a
 - Ryan Lowe, Nissan Pow, Iulian V. Serban and Joelle Pineau, "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems", SIGDial 2015. URL: http://www.sigdial.org/workshops/conference16/proceedings/pdf/SIGDIAL40.pdf
 
 # References
-Bin Lu, Isaack Karanja, & Viktor Veselov. ({10/23/2023}). *Ubuntu Lllama 2*. GitHub. https://github.com/SweatyCrayfish/Ubuntu-Lllama-2
+Bin Lu, Isaack Karanja, & Viktor Veselov. 10/23/2023. *Ubuntu Lllama 2*. GitHub. https://github.com/SweatyCrayfish/Ubuntu-Lllama-2
