@@ -25,27 +25,32 @@ Final Folder
 │   ├── Gradio_Chatbot.ipynb
 │   └── Merged_Model_Push_to_HuggingFace.ipynb
 ├── Conclusion
-│   ├── Final Report.doc
-│   └── REFERENCE.md
+│   ├── Presentation_Advanced_Generative_Chatbot_Design.pdf
+│   ├── REFERENCE.md
+│   └── Report_Advanced_Generative_Chatbot_Design.pdf
 ├── Data Analysis and Cleansing
 │   ├── Data_Analysis_and_Trivial_Modeling.ipynb
 │   └── Data_Cleanup.ipynb
 ├── Model Selection
+│   ├── assets
+│   │   ├── Photos.jpeg
+│   │   └── QLora _1.jpeg
+│   ├── experiments
+│   │   ├── flan_t5_fine_tune_experiment.ipynb
+│   │   └── opt_fine_tune_experiment.ipynb
 │   ├── Final_Linux_CodeLlama_2__Fine_tuning_v2.ipynb
-│   ├── Llama_2_Chat_Fine_Tuning_v2.ipynb
-│   ├── Llama_2_Fine_Tuning_v2.ipynb
-│   ├── Photos.jpeg
-│   ├── QLora _1.jpeg
-│   ├── Team6_Advanced_Chatbot Desigin.ipynb
-│   └── flan_t5_fine_tune.ipynb
-└── Performance and Evaluation
-    ├── Llama 2 Models BLEU and ROUGE Metrics.xlsx
-    ├── Llama_2_Chat__Fine_Tuning_with_Cleaned_Data_Dropoff_0_5.ipynb
-    ├── Llama_2_Chat__Fine_Tuning_with_Cleaned_Data_Early_Stop.ipynb
-    ├── Llama_2__Fine_Tuning_with_Cleaned_Data.ipynb
-    ├── Llama_2__Fine_Tuning_with_Uncleaned_Data.ipynb
-    ├── Performance and Evaluation.docx
-    └── README.md
+│   ├── LLama_2_Chat_with_Report_Writeup.ipynb
+│   ├── Llama_2_Chat__Fine_Tuning_V2.ipynb
+│   └── Llama_2__Fine_Tuning_V2.ipynb
+├── Performance and Evaluation
+│   ├── Llama 2 Models BLEU and ROUGE Metrics.xlsx
+│   ├── Llama_2_Chat__Fine_Tuning_with_Cleaned_Data_Dropoff_0_5.ipynb
+│   ├── Llama_2_Chat__Fine_Tuning_with_Cleaned_Data_Early_Stop.ipynb
+│   ├── Llama_2__Fine_Tuning_with_Cleaned_Data.ipynb
+│   ├── Llama_2__Fine_Tuning_with_Uncleaned_Data.ipynb
+│   ├── Performance and Evaluation.docx
+│   └── README.md
+└── .DS_store
 .DS_Store
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
